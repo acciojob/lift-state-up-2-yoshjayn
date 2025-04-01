@@ -13,7 +13,7 @@ const [input,setInput] = useState("")
         <p>{input}</p>
           <h1>Child Component</h1>
           <div className="child" >
-          <input onChange={(e)=>setInput(e.target.value)}></input>
+          <input type="text" onChange={(e)=>setInput(e.target.value)}></input>
           </div>
         </div>
     </div>
